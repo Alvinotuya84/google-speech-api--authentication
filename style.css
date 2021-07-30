@@ -1,0 +1,194 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    background-color: rgba(255,255,255,0.5);
+    color: black !important;
+    text-align: center;
+  }
+  header h1,h3{
+      text-align: center;
+     color: white;
+  }
+  sub{
+      color:white ;
+      font-style: italic;
+  }
+  body {
+    
+    background-image: url(images/alexandre-debieve-FO7JIlwjOtU-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    
+}
+   
+   .links{
+       display: flex;
+       flex-direction: row;
+       list-style-type: none;
+       float: right;
+      
+   }
+   .links li{
+       padding-left: 29px;
+   }
+   .categories{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+      
+   }
+   .categories li{
+ padding-left: 5%;
+   }
+   .items{
+      text-align: start;
+      list-style-type: none;
+   }
+   #categories{
+       text-align: center;
+       color: white;
+   }
+   .welcome{
+       color: white;
+       text-align: center;
+   }
+   .us{
+       text-align: center;
+       color: white;
+   }
+   .contacts li{
+       list-style-type: none;
+       color: white;
+   }
+   .contacts{
+       color: white;
+   }
+   .nav-link{
+       color: black !important;
+   }
+   .nav-link:hover{
+       color:white !important;
+       background-color: red;
+   }
+   #logo-image{
+      height: 50px !important;
+      width:100px ;
+   }
+   .border-div{
+       width: 70px;
+       border-top: red 3px solid;
+       margin-left: 47%;
+       border-top-width: 4px;
+   }
+   .main-container h1,li{
+       color: white;
+   }
+   .logo-holder{
+       padding: 5px;
+       
+   }
+  
+
+  
+  .wrapper {
+    max-width: 50rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .slider {
+    position: relative;
+    margin: 2rem 0;
+    overflow: hidden;
+    padding-bottom: 2.5rem;
+    border: 0.25rem solid red;
+    border-radius: 10px;
+  }
+  .slider::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: '';
+    display: block;
+    background: red;
+    height: 3rem;
+  }
+  .slide-switch {
+    display: none;
+  }
+  .slide-label {
+    position: absolute;
+    bottom: 1rem;
+    display: block;
+    z-index: 5;
+    height: 1rem;
+    width: 1rem;
+    text-indent: 1rem;
+    overflow: hidden;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+  .slide-label:nth-of-type(1) {
+    left: 1rem;
+  }
+  .slide-label:nth-of-type(2) {
+    left: 2.5rem;
+  }
+  .slide-label:nth-of-type(3) {
+    left: 4rem;
+  }
+  .slide-label:nth-of-type(4) {
+    left: 5.5rem;
+  }
+  .slide-label:nth-of-type(5) {
+    left: 7rem;
+  }
+  .slide-label:nth-of-type(6) {
+    left: 8.5rem;
+  }
+  .padded {
+    padding: 1rem 2rem;
+  }
+  .slide-content p{
+font-size: large;
+}
+  .slide-content p,h4{
+      text-align: center;
+      color: white;
+  }
+  .slide-content {
+      
+    width: 100%;
+    background: transparent;
+    float: left;
+    margin-right: -100%;
+    text-align: center;
+  }
+  .slide-switch:checked + .slide-label {
+    background: black;
+  }
+  .slide-switch:not(:checked) + .slide-label + .slide-content {
+    opacity: 0;
+    transition: opacity 0.35s;
+    pointer-events: none;
+  }
+  .slide-switch:checked + .slide-label + .slide-content {
+    animation: slide 1s;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
