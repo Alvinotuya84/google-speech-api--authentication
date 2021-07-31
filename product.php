@@ -15,7 +15,7 @@ $id=intval($_GET['id']);
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>product</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,7 +34,7 @@ $id=intval($_GET['id']);
               <a class="navbar-brand" href="#">
                   <div class="logo-holder">
                     <h4 style="border-left: 4px solid red;color: red;  padding:1px; 
-                    ">ComTech</h4>
+                    ">OtuyaTech</h4>
 
 
                   </div>
@@ -107,6 +107,6 @@ $id=intval($_GET['id']);
     </style>
   </body>
   <footer class="footer">
-      <p> copyright&copy; seed@gmail.com 2021</p>
+      <p> copyright&copy; ourselves@gmail.com 2021</p>
   </footer>
 </html>

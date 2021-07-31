@@ -151,6 +151,6 @@ window.speechSynthesis.speak(msg);
     }
   </style>
   <footer class="footer">
-      <p> copyright&copy; seed@gmail.com 2021</p>
+      <p> copyright&copy; ourselves@gmail.com 2021</p>
   </footer>
 </html>

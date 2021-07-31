@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>services</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -19,8 +19,8 @@
         <div class="container">
           <a class="navbar-brand" href="#">
               <div class="logo-holder">
-                <h5 style="border-left: 4px solid red;color: tomato;  background-clip: padding-box;
-                ">ComTech</h5>
+                <h5 style="border-left: 4px solid red;color: red;  background-clip: padding-box;
+                ">OtuyaTech</h5>
 
 
               </div>
@@ -57,46 +57,48 @@
           </div>
         </div>
 </nav>
-
-        <div class="services">
+            <h1>our services</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+<div class="main">
+  
+   <div class="services">
           <div class="service">
-          <i class='fas fa-wrench' style='font-size:48px;color:red'></i>
+          <i class='fas fa-funnel-dollar' style='font-size:48px;color:red'></i>
 
             <h4>SALES</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+
           </div>
           <div class="service">
           <i class='fas fa-wrench' style='font-size:48px;color:red'></i>
 
             <h4>REPAIRS</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+
           </div>
           <div class="service">
-          <i class='fas fa-wrench' style='font-size:48px;color:red'></i>
+          <i class="fa fa-arrow-circle-up" style="font-size:48px;color:red"></i>
 
             <h4>UPGRADES</h4>
-          </div>
-          <div class="service">
-          <i class='fas fa-wrench' style='font-size:48px;color:red'></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
 
-            <h4>MAINTAINANCE</h4>
           </div>
-          <div class="service">
-          <i class='fas fa-wrench' style='font-size:48px;color:red'></i>
 
-            <h4>MAINTAINANCE</h4>
-          </div>
-          <div class="service">
-          <i class='fas fa-wrench' style='font-size:48px;color:red'></i>
-
-            <h4>MAINTAINANCE</h4>
-          </div>
           
         </div>
+        <div class="image">
+               <img src="images/Alvin_image.jpg" alt="" srcset="">
+        </div>
+</div>
     
 </body>
 <style>
+  .main{
+    display:grid;
+grid-template-columns:auto auto;  }
   .services{
     display:grid;
-    grid-template-columns:auto auto auto ;
+    grid-template-columns:auto auto  ;
     
 
   }
@@ -110,8 +112,18 @@
   }
   i{
    margin-left:47%  }
+   h1,p{
+    color:white;
+text-align:center;
+   }
+   img{
+    opacity:.6;
+    border:1px solid black;
+    box-shadow: 0 0 15px 10px #141414;
+
+   }
 </style>
 <footer class="footer">
-    <p> copyright&copy; seed@gmail.com</p>
+    <p> copyright&copy; ourselves@gmail.com</p>
 </footer>
 </html>
