@@ -56,7 +56,7 @@
         </div>
 </nav>
 <div class="about-section">
-  <h1>About Us Page</h1>
+  <h1>About Us </h1>
   <p>We modify software to fix errors, adapt it to new hardware, improve its performance, or upgrade interfaces,
 direct system testing and validation procedures,
 direct software programming and documentation development and also
