@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jul 30, 2021 at 11:14 PM
+-- Generation Time: Aug 01, 2021 at 01:17 PM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
 
@@ -41,6 +41,29 @@ INSERT INTO `categories` (`category_id`, `category_name`) VALUES
 (2, 'desktop'),
 (3, 'gaming laptop'),
 (4, 'computer parts');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `contact`
+--
+
+CREATE TABLE `contact` (
+  `user_id` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(20) NOT NULL,
+  `subject` varchar(50) NOT NULL,
+  `message` text NOT NULL,
+  `phone` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `contact`
+--
+
+INSERT INTO `contact` (`user_id`, `name`, `email`, `subject`, `message`, `phone`) VALUES
+(1, 'Alvin', 'otuyaalvin@gmail.com', 'Website build', 'Website build', '0722281992'),
+(2, 'Alvin', 'mzito@gmail.com', 'Website build', 'website build', '0722281992');
 
 -- --------------------------------------------------------
 
@@ -131,6 +154,12 @@ ALTER TABLE `categories`
   ADD PRIMARY KEY (`category_id`);
 
 --
+-- Indexes for table `contact`
+--
+ALTER TABLE `contact`
+  ADD PRIMARY KEY (`user_id`);
+
+--
 -- Indexes for table `maintainance`
 --
 ALTER TABLE `maintainance`
@@ -159,6 +188,12 @@ ALTER TABLE `categories`
   MODIFY `category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
+-- AUTO_INCREMENT for table `contact`
+--
+ALTER TABLE `contact`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT for table `maintainance`
 --
 ALTER TABLE `maintainance`
@@ -168,7 +203,7 @@ ALTER TABLE `maintainance`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 
 --
 -- AUTO_INCREMENT for table `users`
