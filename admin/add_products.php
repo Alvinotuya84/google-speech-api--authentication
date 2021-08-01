@@ -123,9 +123,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
   }
   
-  if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){
-      echo $quantity;
-    
+  if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){    
     $sql_product_insert = "INSERT INTO `products` (`product_name`, `prod_descrption`, `product_price`, `quantity`, `category_id`) VALUES ( ?,?,?,?,?)";
 
 
@@ -133,7 +131,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if($stmt = mysqli_prepare($connect, $sql_product_insert)){
     
       
-      mysqli_stmt_bind_param($stmt, "sssii", $param_productName, $param_productDescr,$param_productPrice,$param_category_id,$param_quantity);
+      mysqli_stmt_bind_param($stmt, "sssii", $param_productName, $param_productDescr,$param_productPrice,$param_quantity,$param_category_id);
 
 
       $param_productName = $productName;
